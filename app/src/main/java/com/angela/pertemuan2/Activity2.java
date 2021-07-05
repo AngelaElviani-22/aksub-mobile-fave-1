@@ -15,6 +15,6 @@ public class Activity2 extends AppCompatActivity {
         setContentView(R.layout.activity_2);
         Intent intent = getIntent();
         String nama = intent.getStringExtra("username");
-        username.setText("Hey, " + username +"!");
+        username.setText("Hey, " + nama +"!");
     }
 }
